@@ -1,0 +1,27 @@
+#photos {
+
+  position: fixed;
+  margin-left: 100px;
+  margin-right: 100px;
+  line-height: 25px;
+
+  column-count: 6;
+  column-gap: 10px;
+  column-width: 400px;
+}
+
+#five {
+  column-span: 2;
+}
+
+#ten {
+  width: 50%;
+  height: auto;
+}
+
+#photos img {
+
+  width: 100% !important;
+  height: auto !important;
+  column-span: 2;
+}
